@@ -1,6 +1,6 @@
 schema = 1
 id = "tern-zh-plus"
 name = "Tern 中英文 / Chinese-English"
-version = "0.9.1"
-description = "基于 losewayy/tern-zh-cn，中英文切换并联动 omp；适配 Windows Tern 0.9.29 (379ecc4)、0.9.28 (3e7c863) 与 0.9.23 (35c63ab)"
+version = "0.9.2"
+description = "基于 losewayy/tern-zh-cn，中英文切换并联动 omp；适配 Windows Tern 0.9.30 (fe54a4c)、0.9.29 (379ecc4)、0.9.28 (3e7c863) 与 0.9.23 (35c63ab)"
 window = "window.luau"

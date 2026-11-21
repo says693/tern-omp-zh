@@ -1,0 +1,44 @@
+/* Tern 0.9.30 (fe54a4c): exact paths captured from the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+/* Agent */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"智能体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Model */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"模型";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The omp model Carly thinks with: a role (@smol, @default) or a model name. She runs on your omp's sign-ins. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 使用的 omp 模型，可以填写角色（@smol、@default）或模型名称；使用你在 omp 中登录的账号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Memory */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"记忆";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Markdown Carly reads at the start of every conversation and writes as she learns: who she is (SOUL.md), you (USER.md), what lasts (MEMORY.md), daily notes, and the heartbeat's checklist (HEARTBEAT.md) */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 每次对话开始时读取并持续更新的 Markdown，包括她自己的设定（SOUL.md）、关于你的信息（USER.md）、长期记忆（MEMORY.md）、每日笔记及心跳检查表（HEARTBEAT.md）。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Voice */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"语音";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Voice */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"语音";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The realtime voice the microphone talks to (on Codex: arbor, breeze, cove, ember, juniper, maple, sol, spruce, vale). Empty uses omp's. Voice needs omp signed in to ChatGPT (Codex), or omp's live.endp */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"麦克风对话使用的实时语音（arbor、breeze、cove、ember、juniper、maple、sol、spruce 或 vale）。留空使用 omp 的设置。语音功能需要在 omp 中登录 ChatGPT（Codex）。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Start with voice */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"启动时使用语音";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Opening Carly turns the microphone on, so you can talk right away. Either way, the microphone or ↵ in an empty field turns it on and off. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"打开 Carly 时自动开启麦克风，方便立即说话。无论此项是否开启，都可以点击麦克风或在空输入框中按回车来开关麦克风。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Scheduled */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"计划任务";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Every */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"检查间隔";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Carly goes through HEARTBEAT.md this often and speaks up only when something needs you. Nothing runs while the checklist is empty. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Carly 按此间隔检查 HEARTBEAT.md，仅在有事需要你时提醒。检查表为空时不运行。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Ask Carly to schedule a reminder or watch for a change. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body::before{content:"可以让 Carly 安排提醒，或留意某项变化。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

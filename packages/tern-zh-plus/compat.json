@@ -1,10 +1,11 @@
 {
   "schema": 1,
   "package": "tern-zh-plus",
-  "payloadVersion": "0.1.1",
+  "payloadVersion": "0.1.2",
   "host": {
     "tern": {
       "builds": [
+        "0.9.30 (fe54a4c)",
         "0.9.29 (379ecc4)",
         "0.9.28 (3e7c863)",
         "0.9.23 (35c63ab)",
@@ -12,6 +13,7 @@
         "0.9.9 (9c1c09f)"
       ],
       "versions": [
+        "0.9.30",
         "0.9.29",
         "0.9.28",
         "0.9.23",

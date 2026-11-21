@@ -60,8 +60,12 @@ local function is0929(version)
     return version:match("^tern 0%.9%.29 ") ~= nil
 end
 
+local function is0930(version)
+    return version == "tern 0.9.30 (fe54a4c)"
+end
+
 local function isModern(version)
-    return version == "tern 0.9.23 (35c63ab)" or is0928(version) or is0929(version)
+    return version == "tern 0.9.23 (35c63ab)" or is0928(version) or is0929(version) or is0930(version)
 end
 
 local function pageStyles(page, version)
@@ -72,6 +76,8 @@ local function pageStyles(page, version)
     local directory = tern.plugin.dir
     if version == "tern 0.9.23 (35c63ab)" then
         directory ..= "/compat/0.9.23"
+    elseif is0930(version) then
+        directory ..= "/compat/0.9.30"
     elseif is0929(version) then
         directory ..= "/compat/0.9.29"
     elseif is0928(version) then

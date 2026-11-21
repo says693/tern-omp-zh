@@ -1,5 +1,5 @@
 -- Keep native controls and accessible names; translate their display labels.
--- 0.9.28 and 0.9.29 navigation rows lost their aria-label, so that layout is scoped by position.
+-- 0.9.28–0.9.30 navigation rows lack aria-label, so their layout is scoped by position.
 local positions = {
     general = { 1, 1 }, agents = { 1, 2 }, appearance = { 1, 3 }, terminal = { 1, 4 },
     lenses = { 1, 5 }, databases = { 1, 6 }, notebooks = { 1, 7 }, carly = { 1, 8 },
@@ -15,6 +15,10 @@ local function is0929(version)
     return version ~= nil and version:match("^tern 0%.9%.29 ") ~= nil
 end
 
+local function is0930(version)
+    return version == "tern 0.9.30 (fe54a4c)"
+end
+
 local function ariaScope(page)
     local label = page:sub(1, 1):upper() .. page:sub(2)
     return 'main#panel > .tn-stage > .pf.sheet > .pf-nav:has(> .pf-groups > .pf-group > .pf-items > .nav-row[aria-label="' .. label .. '"][aria-selected="true"]) + .pf-scroll > '
@@ -27,7 +31,7 @@ local function nthScope(page)
 end
 
 local function scope(page, version)
-    if is0928(version) or is0929(version) then return nthScope(page) or ariaScope(page) end
+    if is0928(version) or is0929(version) or is0930(version) then return nthScope(page) or ariaScope(page) end
     return ariaScope(page)
 end
 local function root(page, version) return scope(page, version) .. '.pf-doc > ' end
@@ -35,6 +39,7 @@ local labels = {}
 local legacyPages = {}
 local modernPages = {}
 local modernPages929 = {}
+local modernPages930 = {}
 local cachedKey = nil
 local cachedCss = ""
 
@@ -66,8 +71,10 @@ end
 loadPages(tern.plugin.dir .. "/settings-controls.tsv", legacyPages)
 loadPages(tern.plugin.dir .. "/settings-controls-0.9.28.tsv", modernPages)
 loadPages(tern.plugin.dir .. "/settings-controls-0.9.29.tsv", modernPages929)
+loadPages(tern.plugin.dir .. "/settings-controls-0.9.30.tsv", modernPages930)
 
 local function pagesFor(version)
+    if is0930(version) then return modernPages930 end
     if is0929(version) then return modernPages929 end
     if is0928(version) then return modernPages end
     return legacyPages
@@ -144,7 +151,7 @@ local function live(page, snapshot, version, cx)
     }
     for name, relative in pairs(hints) do
         local hint = rows["@hint\t" .. name]
-        if hint then
+        if hint and (not is0930(version) or not name:match("^agent%-")) then
             local selector = root(page, version) .. relative
             local wrapping = name:match("%-status$") and 'nowrap' or 'normal'
             table.insert(rules, selector .. '{font-size:0!important;white-space:' .. wrapping .. ';}')

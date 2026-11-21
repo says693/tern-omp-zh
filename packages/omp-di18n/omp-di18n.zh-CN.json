@@ -2243,6 +2243,8 @@
   "Restart omp with the same launch flags, resuming this session and its running subagents": "以相同启动参数重启 omp，恢复本会话及其运行中的子智能体",
   "Forget every file and folder approval Ask and remember has recorded": "清除 Ask 和 remember 记录的所有文件和文件夹批准",
   "Annotate a diff or text from a file, prompt, latest reply, or session (bundled)": "为文件、提示、最新回复或会话中的 diff 或文本添加注释（内置）",
+  "Asks the model for a commit message for the staged changes (bundled)": "让模型为已暂存的更改生成提交说明（内置）",
+  "Asks the model to summarize the working tree's staged and unstaged changes, or the diff against a branch or commit (bundled)": "让模型总结工作树中已暂存和未暂存的更改，或总结与指定分支或提交之间的差异（内置）",
   "Ran in a copy of the busy session shell; changes here won't persist.": "在繁忙会话 shell 的副本中运行；此处的更改不会保留。",
   "Context usage by category": "按类别统计的上下文用量",
   "Context usage is unavailable: no model is selected for this session.": "上下文用量不可用：本会话未选择模型。",

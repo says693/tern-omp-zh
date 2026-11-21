@@ -1,4 +1,4 @@
-# Tern 简体中文 0.9.1（Windows，适配 Tern 0.9.29）
+# Tern 简体中文 0.9.2（Windows，适配 Tern 0.9.30）
 
 适用于 Windows 的非官方 Tern 汉化插件，安装后随 Tern 自动加载，无需单独打开启动脚本。本项目不包含 Tern 主程序，也不是 Tern 官方发行版。
 
@@ -6,15 +6,16 @@
 
 ## 第一次使用
 
-**不需要注册 GitHub 账号，也不用下载源码 ZIP。** 已经安装 Tern 的用户，按下面三步操作即可。
+本轮源码版请先取得本仓库，在仓库根目录安装；npm 上的已发布版本不包含 0.9.30 适配。
 
-准备：使用 Windows，并安装受支持的 Tern。当前推荐 Tern **0.9.29 (379ecc4)**，也兼容 **0.9.28 (3e7c863)**、**0.9.23 (35c63ab)**、**0.9.12 (e498b49)** 和 **0.9.9 (9c1c09f)**。版本号相同但构建编号不同，也可能无法启用设置页汉化。在线安装还需要 Git；如果电脑没有安装，请先从 [Git 官方 Windows 下载页](https://git-scm.com/install/windows) 安装 Git，装好后重新打开 Tern。
+准备：使用 Windows 和 Node.js **>=20.11**，在本仓库根目录操作。当前推荐 Tern **0.9.30 (fe54a4c)**，也兼容 **0.9.29 (379ecc4)**、**0.9.28 (3e7c863)**、**0.9.23 (35c63ab)**、**0.9.12 (e498b49)** 和 **0.9.9 (9c1c09f)**。版本号相同但构建编号不同，也可能无法启用设置页汉化。本轮适配尚未发布到 npm，原上游的在线安装命令不包含这些新增资源。
 
-1. 打开 Tern，找到能输入命令的终端区域。不要在设置搜索框里输入。
+1. 保存工作并退出 Tern，在仓库根目录打开独立的 PowerShell 或 Windows 终端。不要在设置搜索框里输入命令。
 2. 点击下面代码块右上角的复制按钮，粘贴到终端，按 **Enter（回车）**，等待安装命令结束。
 
    ```text
-   tern plugin install github.com/losewayy/tern-zh-cn
+   npm ci --ignore-scripts
+   node packages/cli/bin/zh.js install tern
    ```
 
 3. 确认安装成功后，保存正在进行的工作，关闭所有 Tern 窗口，再重新打开 Tern。打开设置，检查左侧是否显示“常规、智能体、外观、终端”等中文分类。
@@ -23,19 +24,19 @@
 
 图中是操作示意，不是安装成功的实际输出。安装过程中需要联网。安装完成后，日常汉化在本机运行，无需在线翻译。
 
-**方法二，图形界面安装：** 在 Tern 设置的 **Plugins** 页面，将 `github.com/losewayy/tern-zh-cn` 粘贴到 **Install…** 的输入框，点击 **Install**，安装成功后重新打开 Tern。同样需要 Git 和网络。
+也可以从本仓库根目录手动安装：`tern plugin install ./packages/tern-zh-plus/plugin --force`。仍应先保存工作并退出其他 Tern 窗口，避免 Windows 文件占用导致安装失败。
 
 ## 更新已安装的插件
 
-先保存工作并关闭所有 Tern 窗口，然后从 Windows 开始菜单打开 **PowerShell** 或 **Windows 终端**，粘贴下面的命令并按回车：
+先更新本仓库源码，保存工作并关闭所有 Tern 窗口，然后在仓库根目录打开 **PowerShell** 或 **Windows 终端**，粘贴下面的命令并按回车：
 
 ```text
-tern plugin install github.com/losewayy/tern-zh-cn --force
+node packages/cli/bin/zh.js install tern
 ```
 
 命令成功结束后，重新打开 Tern。Windows 可能在 Tern 窗口打开时占用插件目录，因此请先关掉窗口再更新。
 
-上述在线安装和更新命令获取仓库主分支的当前版本，不会锁定某次发行。发行页会记录每次发布对应的版本、适配范围和已知限制。
+上述命令使用本地仓库中的 payload；请先更新源码。插件版本、适配范围和已知限制见包内更新记录，npm 已发布版本见仓库根目录说明。
 
 ## 安装遇到问题
 
@@ -51,7 +52,7 @@ tern plugin install github.com/losewayy/tern-zh-cn --force
 
 首次运行会在本机准备小程序，之后会复用已准备的文件以加快启动；文件留在本机时不会自行运行。
 
-目前针对 Windows 上的 Tern 0.9.29 (379ecc4)、0.9.28 (3e7c863)、0.9.23 (35c63ab)、0.9.12 (e498b49) 和 0.9.9 (9c1c09f) 提供设置页汉化。0.9.29、0.9.28 和 0.9.23 使用新版弹窗和左侧分类列表，固定文字和常见选项随选中的分类直接切换；0.9.29 和 0.9.28 的分类行按位置定位。其他构建仍会加载基础界面和中文命令，设置页保留英文并提示兼容性。OMP 设置页需要单独安装 [omp-di18n 汉化扩展](https://github.com/losewayy/omp-di18n)。
+目前针对 Windows 上的 Tern 0.9.30 (fe54a4c)、0.9.29 (379ecc4)、0.9.28 (3e7c863)、0.9.23 (35c63ab)、0.9.12 (e498b49) 和 0.9.9 (9c1c09f) 提供设置页汉化。0.9.30、0.9.29、0.9.28 和 0.9.23 使用新版弹窗和左侧分类列表，固定文字和常见选项随选中的分类直接切换；0.9.30 的文字按实际原文重新匹配位置。其他构建仍会加载基础界面和中文命令，设置页保留英文并提示兼容性。OMP 设置页需要另装本仓库中的 omp-di18n 扩展。
 
 ## 截图
 
@@ -89,6 +90,6 @@ OMP 原生设置页（需安装 [omp-di18n 汉化扩展](https://github.com/lose
 
 ## 开发与兼容性
 
-`window.luau` 和 `auto-bridge.luau` 负责窗口内的样式；`auto-bridge.cs` 是随窗口启动和退出的小程序源码；`settings-navigation.css` 翻译新版左侧分类；根目录的 `prefs-*.css` 保存 0.9.12 设置页翻译，`compat/0.9.9` 保存旧版差异页面，`compat/0.9.23`、`compat/0.9.28` 和 `compat/0.9.29` 分别保存三个新版构建的设置页翻译；`ui-labels.tsv` 保存命令名称翻译；`settings-controls.luau`、`settings-controls.tsv`、`settings-controls-0.9.28.tsv`、`settings-controls-0.9.29.tsv` 和 `settings-labels.tsv` 负责新版按钮、选项值及按当前分类限定的样式。旧启动脚本仅供已创建的快捷方式兼容使用。
+`window.luau` 和 `auto-bridge.luau` 负责窗口内的样式；`auto-bridge.cs` 是随窗口运行的辅助程序；`settings-navigation.css` 翻译新版左侧分类；根目录的 `prefs-*.css` 保存旧版设置页翻译，`compat/` 按构建保存新版资源；`ui-labels.tsv` 保存命令名称翻译；`settings-controls.luau`、`settings-controls*.tsv` 和 `settings-labels.tsv` 负责按钮、选项值及按当前分类限定的样式。0.9.30 的 CSS 保留实际原文注释，便于在后续版本中核对行号变化。
 
-运行 `python tools/check_tern_settings.py --exe "<Tern 安装目录>/tern.com"`，可在无界面实例中对照 0.9.29 的 14 个设置分类。检查旧版时，用 `--baseline tools/tern-0.9.12-settings.json` 指定旧基准。此检查覆盖标题、分组、标签及说明，不代表全部动态控件均兼容。确认原文、布局和实际显示后，再为新构建启用设置页样式。隐私说明见 [PRIVACY.md](PRIVACY.md)，本项目采用 [MIT 许可证](LICENSE)。
+本轮通过 Tern 自身的 `serve`/`ctl tree`/`ctl dump` 采集 0.9.30 的 14 个设置分类，逐项核对固定控件，再在独立原生窗口验证常规、智能体和快捷键页面。未核实的动态状态保留原文，不把旧版索引直接视为兼容依据。隐私说明见 [PRIVACY.md](PRIVACY.md)，本项目采用 [MIT 许可证](LICENSE)。

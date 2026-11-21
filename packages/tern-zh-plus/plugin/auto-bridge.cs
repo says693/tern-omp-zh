@@ -134,7 +134,7 @@ public static class TernAutoBridge {
     }
 
     private static bool IsModern(string version) {
-        return version == "tern 0.9.23 (35c63ab)" || version.StartsWith("tern 0.9.28 ", StringComparison.Ordinal) || version.StartsWith("tern 0.9.29 ", StringComparison.Ordinal);
+        return version == "tern 0.9.23 (35c63ab)" || version.StartsWith("tern 0.9.28 ", StringComparison.Ordinal) || version.StartsWith("tern 0.9.29 ", StringComparison.Ordinal) || version == "tern 0.9.30 (fe54a4c)";
     }
 
     private static string SettingsPage(AutomationElement root, bool modern) {

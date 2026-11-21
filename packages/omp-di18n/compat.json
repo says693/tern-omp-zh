@@ -1,12 +1,13 @@
 {
   "schema": 1,
   "package": "omp-di18n",
-  "payloadVersion": "0.1.0",
+  "payloadVersion": "0.1.1",
   "host": {
     "omp": {
       "range": ">=19.0.0 <20.0.0",
       "tested": [
-        "19.0.0"
+        "19.0.0",
+        "19.0.1"
       ]
     }
   },
