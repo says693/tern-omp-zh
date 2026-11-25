@@ -134,7 +134,18 @@ public static class TernAutoBridge {
     }
 
     private static bool IsModern(string version) {
-        return version == "tern 0.9.23 (35c63ab)" || version.StartsWith("tern 0.9.28 ", StringComparison.Ordinal) || version.StartsWith("tern 0.9.29 ", StringComparison.Ordinal) || version == "tern 0.9.30 (fe54a4c)";
+        return version == "tern 0.9.23 (35c63ab)" || version.StartsWith("tern 0.9.28 ", StringComparison.Ordinal) || version.StartsWith("tern 0.9.29 ", StringComparison.Ordinal) || version == "tern 0.9.30 (fe54a4c)" || version == "tern 0.9.31 (147ea71)" || version == "tern 0.9.33 (3a79092)";
+    }
+
+    private static bool ContentShowsPage(AutomationElement content, string page) {
+        if (content.FindFirst(TreeScope.Descendants, new PropertyCondition(AutomationElement.NameProperty, page)) != null) return true;
+        var texts = content.FindAll(TreeScope.Descendants, new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Text));
+        foreach (AutomationElement text in texts) {
+            try {
+                if (text.Current.Name.EndsWith("· " + page, StringComparison.Ordinal)) return true;
+            } catch (ElementNotAvailableException) {} catch (InvalidOperationException) {}
+        }
+        return false;
     }
 
     private static string SettingsPage(AutomationElement root, bool modern) {
@@ -179,7 +190,7 @@ public static class TernAutoBridge {
         var content = TreeWalker.ControlViewWalker.GetNextSibling(navigation);
         if (content == null) return modern ? "" : page;
         SettingsContent = content;
-        if (modern && content.FindFirst(TreeScope.Descendants, new PropertyCondition(AutomationElement.NameProperty, page)) == null) return "";
+        if (modern && !ContentShowsPage(content, page)) return "";
         return page;
     }
 

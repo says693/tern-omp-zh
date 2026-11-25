@@ -1,0 +1,359 @@
+/* Tern 0.9.33 (3a79092): exact paths verified against the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+/* Databases */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"数据库";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+/* General */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"常规";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Default location */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"默认位置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Where New database and Open database start. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“新建数据库”和“打开数据库”时使用的起始位置。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Folder */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"文件夹";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Where Always use this location starts, and where each launch starts for this session's location. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“始终使用此位置”以及本次会话使用的路径，都以此文件夹为起点。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Recent files */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"最近打开的文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How many databases Open recent lists. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“最近打开”列表中显示的数据库数量。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Read-only recent shortcuts */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"最近文件的只读快捷方式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Ctrl+Alt+Shift+–9 open recent databases with read-only inverted, as Ctrl+–9 open them. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"使用 Ctrl+Alt+Shift+数字键打开最近的数据库，并将只读状态取反；Ctrl+数字键则按原状态打开。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Reopen databases on restore */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"恢复时重新打开数据库";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Restored database blocks open their file at once. Off, they wait for Open. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"恢复数据库区块时立即打开原文件；关闭后，需要点击“打开”才会加载。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Ask about SQL tabs */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"询问是否保存 SQL 标签页";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Saving a project asks whether to keep each SQL tab's text in it. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"保存项目时，询问是否同时保存各 SQL 标签页中的文本。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Database file types */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"数据库文件类型";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* File types */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"文件类型";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What the open and save dialogs offer before All files. Patterns are separated by spaces. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"打开和保存对话框在“所有文件”之前提供的文件类型。多个匹配模式用空格分隔。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Database */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"数据库";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Default encoding */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"默认编码";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The text encoding new databases get. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"新建数据库使用的文本编码。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Foreign keys */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"外键约束";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Turn on foreign key checks when a database opens. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"打开数据库时启用外键约束检查。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Remove line breaks in schema */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"移除结构定义中的换行";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The structure shows each CREATE statement on one line. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在结构视图中将每条 CREATE 语句显示为一行。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Prefetch block size */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"预读取块大小";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Rows the data browser fetches at a time. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"数据浏览器每次预取的行数。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Default field type */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"默认字段类型";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The type new fields get in Edit table. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在“编辑表”中为新字段使用的默认类型。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Structure font size */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"结构树字体大小";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The size of the structure's text at the default font size; it scales with Tern's font size. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"默认字号下结构视图的文字大小，并随 Tern 字号调整。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Refresh read-only databases */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"刷新只读数据库";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* A database opened read-only reloads when its file changes on disk. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"以只读方式打开的数据库文件在磁盘上变化时，自动重新加载。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Don't ask about collations */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"不再询问排序规则";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* A database using a collation SQLite doesn't know gets a stand-in that sorts shorter text first, without asking. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"遇到 SQLite 不认识的排序规则时，不再询问，直接使用按文本长度升序排列的替代规则。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* SQL to run after opening */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"打开后执行的 SQL";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Runs on every database opened for writing, such as PRAGMA statements. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"每次以可写方式打开数据库时运行的 SQL，例如 PRAGMA 语句。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Data browser */
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t::before{content:"数据浏览器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Font */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The grid's font family. Empty uses Tern's monospace face. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"数据表格使用的字体；留空使用 Tern 的等宽字体。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Font size */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字号";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The size of the grid's and Edit Cell's text at the default font size; it scales with the UI font size. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"默认字号下表格和“编辑单元格”中的文字大小，并随界面字号调整。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Row limit */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"行数限制";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Most rows a table or query shows in the grid. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"表格或查询结果在网格中最多显示的行数。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Symbol limit in cell */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"单元格字符数限制";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Characters a cell shows before it cuts its text short. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"单元格文本超过这个字符数时将被截短。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Completion threshold */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动补全阈值";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Past this many rows, filters stop completing values and the grid stops summing columns. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"行数超过此值后，筛选器不再补全取值，表格也不再对列求和。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Show images in cells */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在单元格显示图片";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Cells holding an image show it. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在包含图片的单元格中显示图片。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Wrap text in cells */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"单元格文本换行";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Long text wraps onto more lines in its cell. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"单元格中的长文本自动换行。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Filter delay */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"筛选延迟";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How long after typing stops a filter applies. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"停止输入后，等待多久才应用筛选条件。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Escape character */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"转义字符";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Put before % or _ in a filter to match it literally. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在筛选条件的 % 或 _ 前加上此字符，可按字面匹配它们。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* NULL text */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"NULL 显示文本";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What cells holding NULL read. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"包含 NULL 的单元格显示的文字。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* BLOB text */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"BLOB 显示文本";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What cells holding binary data read. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"包含二进制数据的单元格显示的文字。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Cell colors */
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t::before{content:"单元格颜色";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* NULL cells */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"NULL 单元格";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Text and background, as #rrggbb. Empty keeps the theme's. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文字和背景颜色，格式为 #rrggbb；留空沿用主题颜色。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* BLOB cells */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"BLOB 单元格";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Text and background, as #rrggbb. Empty keeps the theme's. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文字和背景颜色，格式为 #rrggbb；留空沿用主题颜色。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Regular cells */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"普通单元格";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Text and background, as #rrggbb. Empty keeps the theme's. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文字和背景颜色，格式为 #rrggbb；留空沿用主题颜色。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Formatted cells */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"格式化单元格";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Text and background, as #rrggbb. Empty keeps the theme's. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文字和背景颜色，格式为 #rrggbb；留空沿用主题颜色。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Edit cell */
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t::before{content:"编辑单元格";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Compact indent */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"紧凑缩进";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* JSON and XML indent with fewer spaces. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"格式化 JSON 和 XML 时使用更少的缩进空格。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Sort JSON keys */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"JSON 键排序";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Formatting JSON orders each object's keys. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"格式化 JSON 时对每个对象的键排序。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Switch mode automatically */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动切换模式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The editor picks text, JSON, XML or image to suit the cell. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"根据单元格内容自动选择文本、JSON、XML 或图片模式。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Wrap text */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"文本换行";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Long lines wrap in the cell editor. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"单元格编辑器中的长行自动换行。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Dragging from the structure */
+.pf-doc > section:nth-of-type(7)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>h2:nth-of-type(1).pf-sec-t::before{content:"从结构树拖拽";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Write a SELECT */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"生成 SELECT 语句";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Dropping a table or its columns writes a query of them. */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将表或列拖入编辑器时生成对应的 SELECT 查询。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Write an INSERT */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"生成 INSERT 语句";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Dropping writes an INSERT of them. */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将表或列拖入编辑器时生成对应的 INSERT 语句。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Qualified names */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"包含限定名";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Names come with their schema: main.users. */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"名称包含所属模式，例如 main.users。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Quoted names */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"为名称添加引号";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Names come quoted as the SQL page's identifier quotes say. */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"按照 SQL 页面中的标识符引用设置，为名称添加引号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* SQL editor */
+.pf-doc > section:nth-of-type(8)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>h2:nth-of-type(1).pf-sec-t::before{content:"SQL 编辑器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Font */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The SQL editor's font family. Empty uses Tern's monospace face. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"SQL 编辑器使用的字体；留空使用 Tern 的等宽字体。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Font size */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字号";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The size of the SQL editor's text at the default font size; it scales with the UI font size. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"默认字号下 SQL 编辑器的文字大小，并随界面字号调整。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Results font size */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"结果字号";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The size of query messages and the SQL Log at the default font size; it scales with Tern's font size. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"默认字号下查询消息和 SQL 日志的文字大小，并随 Tern 字号调整。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Tab size */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"制表符宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Columns per tab stop. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"每个制表位占用的列数。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Indent with tabs */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"使用 Tab 缩进";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Tab inserts a tab. Off, it inserts spaces. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"按 Tab 插入制表符；关闭后插入空格。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Wrap lines */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动换行";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How long lines in the SQL editor wrap. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"SQL 编辑器中长行的换行方式。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Identifier quotes */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"标识符引号";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How generated SQL quotes table and column names. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"生成 SQL 时引用表名和列名的方式。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Code completion */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码补全";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The editor completes keywords, tables and columns as you type. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"输入时自动补全关键字、表名和列名。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Keyword case */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"关键字大小写";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How completion writes keywords. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"自动补全时关键字的大小写。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Error indicators */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"错误标记";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The editor marks the statement that failed. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在编辑器中标记执行失败的语句。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Side-by-side results */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"左右并排结果";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The editor and its results sit side by side. Off, results go below. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"编辑器和查询结果并排显示；关闭后结果显示在下方。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Close buttons on tabs */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"标签页关闭按钮";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* SQL tabs show a close button. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 SQL 标签页上显示关闭按钮。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Extensions */
+.pf-doc > section:nth-of-type(9)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>h2:nth-of-type(1).pf-sec-t::before{content:"扩展";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Extensions */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"扩展";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Libraries loaded into every database opened. */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"打开数据库时自动加载的扩展库。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* No extensions: databases open with SQLite's built-in functions. */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body::before{content:"尚未添加扩展，数据库使用 SQLite 内置函数。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Disable REGEXP */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"禁用 REGEXP";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Databases get no REGEXP function, so an extension can bring its own. */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"不为数据库提供 REGEXP 函数，以便扩展提供自己的实现。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Allow load_extension from SQL */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"允许从 SQL 加载扩展";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* SQL may load extension libraries itself. Only turn on for databases you trust. */
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"允许 SQL 自行加载扩展库。请仅对可信数据库开启。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

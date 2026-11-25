@@ -1,0 +1,122 @@
+/* Tern 0.9.33 (3a79092): exact paths verified against the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+/* Agents */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"智能体";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Default */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"默认";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Agent */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"智能体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What agent blocks (Ctrl+Shift+A) run. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"设置 Ctrl+Shift+A 新建的智能体区块运行的程序。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Agent opens */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"智能体打开位置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Where a new agent block goes. Replace takes the tab's only pane when it is a shell idle at its prompt, and splits otherwise. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"新建智能体区块的打开方式。选择“替换”时，仅在当前标签页只有一个区块且该区块是空闲 Shell 时替换它，其他情况均采用分屏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Notifications */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"通知";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Needs attention */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"需要处理";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* While Tern is in the background, an agent waiting for you (blocked or asking) posts a system notification. Clicking it goes to the agent's pane. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 在后台时，智能体等待你操作或回答问题会发出系统通知；点击通知可跳转到对应区块。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Turn finished */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"本轮结束";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* While Tern is in the background, an agent finishing or failing its turn posts a system notification. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 在后台时，智能体完成本轮任务或本轮执行失败都会发出系统通知。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* ACP chats */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"ACP 聊天";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Open agent commands as ACP chats */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"以 ACP 聊天打开智能体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Typing claude, codex or copilot in a new Tern shell opens it in Tern's chat over ACP. `command claude` runs its own interface. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在新 Shell 中输入 claude、codex 或 copilot 可通过 ACP 在 Tern 内聊天；使用 command claude 则运行原本的命令行界面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Show Claude's thinking */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"显示 Claude 的思考摘要";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Claude's chat shows a summary of its reasoning as it works. MAX_THINKING_TOKENS=0 in the environment turns thinking off. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"显示 Claude 的思考摘要；设置 MAX_THINKING_TOKENS=0 可关闭思考。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Custom agents */
+.pf-doc > section:nth-of-type(7)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>h2:nth-of-type(1).pf-sec-t::before{content:"自定义智能体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Agents */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"智能体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Commands that speak ACP over stdio. Environment variables are set in settings.json. */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"通过标准输入输出使用 ACP 协议的命令；环境变量在 settings.json 中设置。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* No custom agents. */
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body{font-size:0!important;}
+.pf-doc > section:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body::before{content:"尚未添加自定义智能体。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* MCP servers */
+.pf-doc > section:nth-of-type(8)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>h2:nth-of-type(1).pf-sec-t::before{content:"MCP 服务器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Servers */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"服务器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Tools agents get in Tern's chat. Environment variables and headers are set in settings.json; ${VAR} reads the environment. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"智能体在 Tern 聊天中可用的工具。环境变量和请求头在 settings.json 中设置；${VAR} 用于读取环境变量。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* No MCP servers. */
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body{font-size:0!important;}
+.pf-doc > section:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body::before{content:"尚未添加 MCP 服务器。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Command line tool */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"命令行工具";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Open Claude Code as an ACP chat */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在 ACP 聊天中打开 Claude Code";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Use Claude Code's own file and terminal tools */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"使用 Claude Code 自带的文件与终端工具";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Command line tool */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"命令行工具";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Open Codex as an ACP chat */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在 ACP 聊天中打开 Codex";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Use Codex's own file and terminal tools */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"使用 Codex 自带的文件与终端工具";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Command line tool */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"命令行工具";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Open GitHub Copilot as an ACP chat */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在 ACP 聊天中打开 GitHub Copilot";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Use GitHub Copilot's own file and terminal tools */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"使用 GitHub Copilot 自带的文件与终端工具";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Typing claude in a new Tern shell opens Tern's chat. Off, it runs Claude Code's own interface. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在新建的 Tern Shell 中输入 claude 会打开 Tern 的聊天；关闭后运行 Claude Code 自己的界面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In its ACP chat, Claude Code reads and edits files and runs commands itself instead of through Tern. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 ACP 聊天中，Claude Code 自行读写文件并运行命令，而不是通过 Tern。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Typing codex in a new Tern shell opens Tern's chat. Off, it runs Codex's own interface. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在新建的 Tern Shell 中输入 codex 会打开 Tern 的聊天；关闭后运行 Codex 自己的界面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In its ACP chat, Codex reads and edits files and runs commands itself instead of through Tern. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 ACP 聊天中，Codex 自行读写文件并运行命令，而不是通过 Tern。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Not installed */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"未安装";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Typing copilot in a new Tern shell opens Tern's chat. Off, it runs GitHub Copilot's own interface. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在新建的 Tern Shell 中输入 copilot 会打开 Tern 的聊天；关闭后运行 GitHub Copilot 自己的界面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In its ACP chat, GitHub Copilot reads and edits files and runs commands itself instead of through Tern. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 ACP 聊天中，GitHub Copilot 自行读写文件并运行命令，而不是通过 Tern。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

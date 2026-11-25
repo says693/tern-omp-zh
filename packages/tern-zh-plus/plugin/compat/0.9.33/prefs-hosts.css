@@ -1,0 +1,83 @@
+/* Tern 0.9.33 (3a79092): exact paths verified against the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+/* Hosts */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"主机";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Sharing */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"共享";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Share sessions */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"共享会话";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Let tern web serve offer the sessions on this PC to browsers. Off, it refuses to start; connecting to other hosts works either way. Phones and other computers can't connect to Windows yet. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"允许 tern web serve 将本机会话提供给浏览器；关闭后此命令无法启动，但仍可连接其他主机。Windows 暂不支持手机或其他电脑连接进来。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Connected */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"已连接主机";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Add a host */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"添加主机";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Set it up with tern remote install --allow you (your key in its authorized_keys and a rule in its access.toml), then add it by hostname, IP[:port] or tailnet name over UDP 8376, or from anywhere throu */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"先用 tern remote install --allow you 配置主机（在 authorized_keys 中加入你的公钥，并在 access.toml 中设置规则），再通过主机名、IP[:端口] 或 Tailnet 名称经 UDP 8376 连接；也可用该命令输出的端点 ID 通过中继从任意位置连接，无需开放入站 UDP。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Notices */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"通知";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Connection notices */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"连接通知";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Say when a remote host can't be reached or its connection drops. Off, or for a host you quiet with its bell, only its status shows it; a connection you start still says why it failed. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"远程主机无法连接或连接中断时通知。关闭或将某个主机静音后，仅显示状态；主动连接失败时仍会说明原因。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Host keys */
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t::before{content:"主机密钥";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* No keys pinned yet. Tern shows a host's fingerprint the first time you connect and remembers it once you trust it. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).kit-empty-body::before{content:"尚未固定任何密钥。首次连接时 Tern 会显示主机指纹，确认信任后便会记住。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Cloud */
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t::before{content:"云端";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Provider */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"提供商";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Machine size */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"机器规格";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Pause after */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"暂停延迟";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Send my model sign-ins */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"发送我的模型登录信息";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Send GitHub sign-in */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"发送 GitHub 登录信息";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Also send ignored files */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"同时发送被忽略的文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Rebuild environments after */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"重建环境间隔";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Who runs the machines Send to cloud starts */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“发送到云端”启动的机器由谁提供";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What Send to cloud asks for */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“发送到云端”请求的配置";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* An idle machine pauses after this long and resumes when you open it */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"空闲机器暂停这么久后，打开时自动恢复";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* So agents on the machine use your models. Providers that rotate sign-in tokens may sign this computer out after the machine refreshes them */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"让机器上的智能体使用你的模型。会轮换登录令牌的提供方可能在机器刷新令牌后退出本机登录";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Your gh (else git credential) token, so clone, push and gh work on the machine */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"你的 gh（或 git 凭据）令牌，让机器上的 clone、push 和 gh 可用";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Git-ignored files matching these globs travel too */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"匹配这些通配符的 Git 忽略文件也会一并传输";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Self-hosted environment snapshots older than this rebuild after a Send */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"自托管环境快照超过此时间后，会在下次发送后重建";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

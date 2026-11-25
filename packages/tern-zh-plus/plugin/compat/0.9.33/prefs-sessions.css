@@ -1,0 +1,59 @@
+/* Tern 0.9.33 (3a79092): exact paths verified against the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+/* Sessions */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"会话";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Daemon */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"会话服务";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Start at login */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"登录时启动";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The daemon starts when you log in, with no window, and brings back the sessions it kept: an agent cut off mid-turn (a crash, a power loss) picks up where it left off. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"登录系统时在后台启动会话服务并恢复保留的会话；崩溃或断电时被打断的智能体可以从中断处继续。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Show in the system tray */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"显示在系统托盘";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* While the daemon runs, Tern's icon in the system tray shows what is working and what needs you, and opens Tern, a new window or a kept one. Stop Sessions is there too. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"会话服务运行时，系统托盘中的 Tern 图标显示工作状态和待处理事项，可打开 Tern、新窗口或保留的窗口，也可停止会话。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Socket */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"套接字";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Where windows, and tern whoami in a block, reach the daemon. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 窗口和区块内的 tern whoami 连接会话服务所使用的地址。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* This window */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"当前窗口";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Sessions */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"会话";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Clicking another session's tab */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"单击其他会话的标签页";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In the side tab list and Mission Control. Stay keeps this session until a double click; the session switcher (Ctrl+Shift+Space) and the inbox always switch. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"适用于侧边标签列表和窗口总览。选择“保持当前会话”时，需双击才切换；会话切换器（Ctrl+Shift+Space）和收件箱始终会切换。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* At launch */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"启动时";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Reconnect to remote hosts */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"重新连接远程主机";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Hosts the last window used attach again in the background. Off, they stay saved: Settings › Hosts lists them to connect when you choose. Sessions on this PC always come back: the daemon keeps them. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在后台重新连接上个窗口使用的远程主机。关闭后仍保留主机，可在“设置 › 主机”中手动连接。本机会话始终由会话服务恢复。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Closing */
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t::before{content:"关闭行为";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Confirm before closing */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"关闭前确认";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Closing a block, tab or session ends its programs. Running programs asks only when one is busy (a command, an agent mid-turn, an editor); idle shells and agents close at once. A locked session refuses */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"关闭区块、标签页或会话会结束其中的程序。选择“程序运行时”时，仅在命令执行、智能体工作或编辑器打开时确认；空闲的 Shell 和智能体会直接关闭。锁定的会话始终拒绝关闭。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Close empty sessions */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"关闭空会话";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}

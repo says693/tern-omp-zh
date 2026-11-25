@@ -1,0 +1,101 @@
+/* Tern 0.9.33 (3a79092): exact paths verified against the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+/* Advanced */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"高级";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Rendering */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"渲染";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Renderer */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"渲染器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What draws Tern's windows. Automatic uses the graphics card and stops using one that stops responding. Applies after a restart. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"绘制 Tern 窗口的方式。“自动”使用显卡，并在显卡无响应时停止使用它。重启后生效。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Drawing with */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"绘图设备";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The GPU and graphics API the window draws with. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"显示当前窗口使用的 GPU 与图形 API。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Anti-aliasing */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"抗锯齿";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Smooth edges on shapes, borders and strokes. Text keeps its own smoothing. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"平滑图形、边框和线条的边缘；文字使用独立的平滑方式。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* MSAA */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"多重采样抗锯齿";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Shades every edge at several samples per pixel: finer curves and hairlines, more GPU work. Lowered to what the GPU supports. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"对每个像素的边缘进行多次采样，使曲线和细线更平滑，但会增加 GPU 负担。采样数超出 GPU 支持范围时自动降低。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Frame rate */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"垂直同步";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Most frames a second Tern draws. Lower uses less power on fast displays; it rounds down to an even share of the display's refresh, so 60 draws 55 on a 165 Hz display. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"等待显示器刷新后绘制画面；关闭可能出现画面撕裂。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* VSync */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"预渲染帧数";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Frames wait for the display's refresh. Off shows each one at once: a little sooner, but it may tear. Doesn't change the frame rate. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"减少预渲染帧可降低输入延迟，增加帧数可改善复杂动画的流畅度。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Frames queued */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"排队帧数";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Frames the GPU may prepare ahead of the display: fewer answer input sooner, more keep heavy animation smooth. */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"GPU 可提前为显示器准备的帧数：更少更快响应输入，更多让复杂动画更流畅。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Settings file */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"设置文件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The settings changed from their defaults, as JSON. Reload applies edits made by hand. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"保存与默认值不同的设置；手动编辑 JSON 后可重新加载。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Configuration folder */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"配置目录";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* settings.json, known_hosts and the hosts list live here. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"这里保存 settings.json、known_hosts 和主机列表。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Diagnostics */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"诊断";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Logs and app state */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"日志与应用状态";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Each Tern process's log, a snapshot of what Tern shows now (the running command and the selection included), and the state Tern keeps between runs. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"各 Tern 进程的日志、当前显示内容的快照（包括运行中的命令和选中文字），以及跨次运行保留的状态。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Logs folder */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"日志目录";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* STENCIL_LOG sets what the logs record, STENCIL_TRACE records a profile. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"可使用 STENCIL_LOG 设置日志级别，使用 STENCIL_TRACE 记录性能数据。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Send crash reports */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"发送崩溃报告";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* When Tern crashes, send the error, recent log lines and system and GPU details to Stencil. Reports also stay in the logs folder. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"当 Tern 崩溃时，向 Stencil 发送错误、最近的日志以及系统和显卡信息；报告也会保留在日志文件夹中。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Themes folder */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"主题目录";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* CSS themes here (NAME.css, each built on another theme) join the built-in ones and change as you edit them. Make the folder if it is missing. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在此放置 NAME.css 主题文件，每个主题基于另一个主题扩展，与内置主题一起列出。编辑后即时更新，目录不存在时可自行创建。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Syntaxes folder */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"语法目录";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Sublime syntaxes here (NAME.sublime-syntax) highlight more languages, or replace the built-in ones. Make the folder if it is missing; changes show after a restart. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在此放置 NAME.sublime-syntax 文件，为更多语言添加高亮或替换内置语法。目录不存在时可自行创建，更改在重启后生效。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* omp folder */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"omp 目录";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Where Tern reads omp's theme choice (config.yml) and your themes in themes/, following them as they change. Empty uses the folder omp itself would. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Tern 在此读取 omp 主题配置 config.yml 及 themes/ 目录，留空使用 omp 默认路径。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}

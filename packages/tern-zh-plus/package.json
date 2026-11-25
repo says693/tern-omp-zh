@@ -1,6 +1,6 @@
 {
   "name": "tern-zh-plus",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Chinese/English Tern UI plugin payload with per-build compat stylesheets",
   "type": "module",
   "files": [
