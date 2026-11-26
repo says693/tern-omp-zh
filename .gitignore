@@ -4,3 +4,5 @@ node_modules/
 
 # secrets
 .npmrc*
+packages/omp-di18n/omp-di18n-debug.txt
+packages/omp-di18n/omp-di18n.misses.txt
