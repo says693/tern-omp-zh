@@ -72,8 +72,12 @@ local function is0933(version)
     return version == "tern 0.9.33 (3a79092)"
 end
 
+local function is0936(version)
+    return version == "tern 0.9.36 (7123a24)"
+end
+
 local function isModern(version)
-    return version == "tern 0.9.23 (35c63ab)" or is0928(version) or is0929(version) or is0930(version) or is0931(version) or is0933(version)
+    return version == "tern 0.9.23 (35c63ab)" or is0928(version) or is0929(version) or is0930(version) or is0931(version) or is0933(version) or is0936(version)
 end
 
 local function pageStyles(page, version)
@@ -84,6 +88,8 @@ local function pageStyles(page, version)
     local directory = tern.plugin.dir
     if version == "tern 0.9.23 (35c63ab)" then
         directory ..= "/compat/0.9.23"
+    elseif is0936(version) then
+        directory ..= "/compat/0.9.36"
     elseif is0933(version) then
         directory ..= "/compat/0.9.33"
     elseif is0931(version) then

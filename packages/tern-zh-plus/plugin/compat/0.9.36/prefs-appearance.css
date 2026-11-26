@@ -1,0 +1,366 @@
+/* Tern 0.9.36 (7123a24): exact paths verified against the settings DOM.
+ * Translations are matched by source text, not by the previous build's row positions. */
+
+/* Appearance */
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title{font-size:0!important;}
+.pf-doc > header:nth-of-type(1)>h1:nth-of-type(1).pf-title::before{content:"外观";font-size:18px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Theme */
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>h2:nth-of-type(1).pf-sec-t::before{content:"主题";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Follow omp */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"跟随 omp";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Use the dark and light themes omp shows instead of the ones kept here. From omp's default profile (~/.omp\agent). */
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"使用 omp 显示的深色与浅色主题，而不是此处保存的主题。来自 omp 的默认配置（~/.omp\\agent）。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Appearance */
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>h2:nth-of-type(1).pf-sec-t::before{content:"外观";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Appearance */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"外观";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Light, dark, or following the system. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"选择浅色、深色或跟随系统。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Font */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"终端字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The terminal grid's family, or several, most wanted first; empty uses Ioskeley Mono Term. Beside it, the size of the grid and of code in editors, diffs and chats (Ctrl+Shift+= and Ctrl+Shift+− change */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端字体，可按优先顺序填写多个，留空使用 Ioskeley Mono Term。旁边设置终端及编辑器、差异和聊天中代码的字号；Ctrl+Shift+= 和 Ctrl+Shift+− 同时调整它与界面字号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Bold font */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"粗体字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Bold text's family, or several, most wanted first; empty uses Font's Ioskeley Mono Term Medium. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"粗体文字使用的字体，可按优先顺序填写多个。留空时使用所选终端字体的粗体，内置默认值为 Ioskeley Mono Term Medium。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Italic font */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"斜体字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Italic text's family, or several, most wanted first; empty uses Font's Ioskeley Mono Term. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"斜体文字使用的字体，可按优先顺序填写多个。留空时沿用所选终端字体，内置默认值为 Ioskeley Mono Term。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Bold italic font */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"粗斜体字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Bold italic text's family, or several, most wanted first; empty uses Font's Ioskeley Mono Term Medium. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"粗斜体文字使用的字体，可按优先顺序填写多个。留空时使用所选终端字体的粗体，内置默认值为 Ioskeley Mono Term Medium。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Font weight */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字体粗细";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The terminal grid's text weight; bold draws 300 heavier, at least 700. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端文字的字重。粗体在此基础上增加 300，且不低于 700。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Code font */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Monospace text outside the grid: editors, blocks and labels. Empty: editors follow Font, the rest use the built-in Ioskeley Mono Term. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端网格之外的等宽字体，用于编辑器、区块和标签。留空时编辑器沿用终端字体，其余使用内置 Ioskeley Mono Term。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* UI font */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"界面字体";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The interface's family, or several, most wanted first; empty uses the built-in Geist. Beside it, the size of the rest of the window: tabs, menus, blocks and settings. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"界面字体，可按优先顺序填写多个，留空使用内置 Geist。旁边设置标签页、菜单、区块和设置等界面的字号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Line height */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"行高";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Added to each terminal and code row: whole px (2, -1) or a percentage (20%), as Ghostty's adjust-cell-height. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"调整终端和代码的每一行高度，可使用像素或百分比。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Cell width */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"字符宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Added to each terminal and code column: whole px (1, -1) or a percentage (-7%), as Ghostty's adjust-cell-width. Letters keep their size. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"为终端和代码的每一列增加宽度，可填写整数像素（1、-1）或百分比（-7%），类似 Ghostty 的 adjust-cell-width。字符本身大小不变。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Padding */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"内边距";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Room between a terminal's text and its block's edges: across, then down, as Ghostty's window-padding-x and -y. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端文字到区块边缘的水平和垂直距离。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Snap text to pixels */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"文字像素对齐";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Draws every letter on whole pixels, as most terminals do: sharper, crisper text, with spacing up to half a pixel uneven. Off places letters at quarter pixels. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将文字对齐到整数像素，使其更锐利；字间距可能存在最多半个像素的偏差。关闭后按四分之一像素定位。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Contrast correction */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"对比度校正";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Relights program text that reads too faintly on its background, to WCAG AA. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"提高与背景对比度不足的程序文字的亮度，使其符合 WCAG AA 标准。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Reduce motion */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"减少动态效果";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Stills animations, the effort fire and the running pulses; programs drop their own motion too. */
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"停止动画、火焰和运行脉冲等动态效果，程序也会减少自身的动画。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Cursor */
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>h2:nth-of-type(1).pf-sec-t::before{content:"光标";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Shape */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"光标形状";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Auto keeps each place's own, a block in terminals and a bar in editors, and lets programs change it: shells ask for a bar at the prompt, Vim switches with its modes. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"自动模式保留各处的默认光标：终端使用方块，编辑器使用竖线，并允许程序切换。Shell 可在提示符处请求竖线，Vim 可随模式切换形状。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Programs change it */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"允许程序修改光标";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Shells and programs like Vim can switch the shape picked above too, and it comes back when they let go. Off, it always shows. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"允许 Shell、Vim 等程序临时切换上方选定的光标形状，结束后恢复。关闭后始终使用选定形状。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Blink */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"光标闪烁";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The cursor blinks (in terminals, when the program asks it to) and holds still after 10 seconds without typing. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"让光标闪烁；在终端中遵循程序的闪烁请求。停止输入 10 秒后，光标保持静止。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Smooth blink */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"平滑闪烁";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The cursor fades out and back in as it blinks. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"光标闪烁时使用淡入淡出。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Glide */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"平滑滑动";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How long the cursor slides to where it moves instead of jumping there. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"光标移动到新位置时的滑动时长。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Trail */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"拖尾特效";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What the cursor leaves behind when it jumps: Neovide's stretching warp, kitty's comet, a blaze of fire, a dust of sparks or fading echoes. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"光标快速移动时留下的拖尾效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Pulse */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"形状变化特效";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What the cursor sets off when a program changes its shape, from block to bar as Vim switches modes (with Shape on Auto, or programs allowed to change it). */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"程序切换光标形状时的动画。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In terminals */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"用于终端";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Terminal panes take this cursor. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端区块使用此光标效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In the chat composer */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"用于聊天输入框";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* omp's composer takes it too. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"omp 的聊天输入框也使用此效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In editors */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"用于编辑器";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* File blocks take it while editing code, text and Markdown. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"文件编辑器也使用此效果。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Pointer */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"鼠标指针";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The mouse pointer over terminals. Links a click opens still show the hand. */
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"鼠标移到终端上时的指针形状。可单击打开的链接仍显示为手形。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Interface style */
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>h2:nth-of-type(1).pf-sec-t::before{content:"界面样式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Layout */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"界面布局";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How much chrome frames the terminals (Ctrl+Shift+L cycles them). */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"终端周围边框及界面控件的布局，可用 Ctrl+Shift+L 循环切换。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Slide between tabs */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"标签页滑动切换";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* In Tiles, tabs sit side by side on an endless strip: switching slides the next one in from the side it lies on, past the last tab back to the first. Off, tabs swap at once. Respects Reduce Motion. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在“平铺”布局中，标签页并排位于无尽条带上：切换时下一个标签页从所在侧滑入，越过最后一个后回到第一个。关闭则立即交换。遵循“减少动态效果”。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Material */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"表面材质";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* What the window's surfaces are made of. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"窗口背景的显示材质。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Opacity */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"不透明度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How much the terminal's background hides the desktop behind glass. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"背景遮住桌面的程度。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Blur */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"模糊";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Whether Clear blurs the desktop behind the window. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"透明材质是否模糊窗口后方的桌面。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Density */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"界面密度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Blocks flush against each other, or each a card. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"区块紧密排列，或各自显示成卡片。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Tabs */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"标签页位置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Along the top, or down the side with every session's tabs (Ctrl+Shift+\). */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在顶部横向排列标签页，或在侧边纵向显示所有会话的标签页。Ctrl+Shift+\\ 切换位置。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Hide side tabs */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"自动隐藏侧边标签页";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Side tabs tuck into a strip at the window's edge and slide out while the pointer rests there (Ctrl+Alt+Shift+\ hides or shows them). */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"侧边标签栏收起到窗口边缘，鼠标悬停时展开。Ctrl+Alt+Shift+\\ 切换显示与隐藏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Scroll over side tabs to switch tabs */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"在侧边标签上滚动以切换";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* A mouse wheel or trackpad scroll over the side tabs selects the next or previous tab instead of scrolling the list; one trackpad swipe moves one tab. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在侧边标签上使用滚轮或触控板时切换到上一个或下一个标签，而非滚动列表。触控板每次滑动切换一个标签。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Number side tabs across sessions */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"跨会话连续编号侧边标签";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Tab numbers and their shortcuts count every session's tabs down the side as one list, so a number always means the same tab; off, they count the current session's tabs. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将侧边栏中所有会话的标签连续编号，编号快捷键始终指向同一标签。关闭后仅为当前会话的标签编号。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* System title bar */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"使用系统标题栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The system's title bar and window controls above the tab bar, in place of Tern's own at its end. Some Linux desktops (GNOME) have none to offer. */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在标签栏上方使用系统标题栏和窗口按钮，替代 Tern 在标签栏末端提供的按钮。部分 Linux 桌面（如 GNOME）不提供系统标题栏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Program icons */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"程序图标";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Icons in place of programs' own on tabs, pane rows and parked cards: program=icon pairs (codex=provider-openai, nvim=sparkle) by the program (codex, vim, shell) or its command (nvim, npm). A plugin's */
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"为标签、区块标题和暂存卡片指定程序图标。使用 program=icon 格式，如 codex=provider-openai、nvim=sparkle，按程序或命令匹配。插件为同一程序指定的图标优先，对应 settings.json 中的 program_icons。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Panes */
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>h2:nth-of-type(1).pf-sec-t::before{content:"区块";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Pane headers */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"区块标题栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The pane's title with its split, float, zoom and close buttons; never, once a tab is split, or on every pane. Unless the widget bar holds the Directory widget, the header also names the directory and */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"显示区块标题及分屏、浮动、最大化和关闭按钮，可选从不显示、分屏时显示或始终显示。除非底部组件栏已包含目录组件，否则标题也显示目录和分支。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Dim unfocused panes */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"淡化未聚焦的区块";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How far panes and blocks without focus recede under a wash while a tab is split, so the focused one stands out. Off, every pane keeps its full contrast. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"分屏时淡化未聚焦的区块，使当前区块更醒目。关闭后所有区块保持完整对比度。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Widgets */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"底部组件";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Widgets along the window's foot: the focused pane's directory and branch, its last command, this computer's meters, AI usage from omp, and plugins' widgets. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"窗口底部的组件，包括当前区块的目录、分支和最近命令、本机状态、omp 的 AI 用量及插件组件。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Widget bar style */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"组件栏样式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How the bar sets its widgets apart: an even space, soft pills, hairline outlines, or hairlines between them. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"组件之间的区分方式，可选均匀留白、柔和胶囊、细线边框或分隔线。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* tmux status line */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"tmux 状态栏";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Draw the status line of tmux running in a pane as Tern's own: the session and its windows in the pane headers' look, a click switching windows. */
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"将区块内 tmux 的状态栏绘制为 Tern 风格的会话和窗口列表，可单击切换 tmux 窗口。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Programs */
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>h2:nth-of-type(1).pf-sec-t::before{content:"程序";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Chat style */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"聊天布局";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How omp's conversation reads: Reader in a centered column, Spine as a timeline of steps, Console in omp's own terminal look. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"阅读：居中排版；时间线：按步骤展示；控制台：终端风格。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Chat width */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"聊天宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How wide Reader's and Spine's column runs: Standard keeps the conversation to a centered reading column, Wide to a broader one, Full width spreads it across the pane as Console does. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"Reader 与 Spine 栏的宽度：“标准”让对话保持居中的阅读栏，“宽”更宽，“全宽”像控制台一样铺满窗格。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Welcome intro */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"欢迎动画";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How an empty Reader chat opens: a burst of ASCII glyphs, braille printed down the pane or a ripple through the dots, with omp's mark in it until the first prompt. Random picks one each time Tern start */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"空 Reader 聊天打开时的效果：ASCII 字符爆发、盲文沿窗格打印或点阵涟漪，第一条提示前显示 omp 标记。每次启动 Tern 随机选择一种。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* omp settings */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"omp 设置";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How omp's /settings opens: a window over its pane, as Tern's own Settings, or a sheet beside the chat. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"omp 的 /settings 打开方式，可像 Tern 设置一样显示为区块上方的弹窗，或显示为聊天旁的侧栏。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Fold tool calls */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"折叠工具调用";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Runs of tool calls and thoughts collapse under one "Worked · Read ×2 · 1 thought" row once the answer follows, in every chat style. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"回复出现后，将此前连续的工具调用和思考折叠为一行摘要，显示工作、读取和思考次数。适用于所有聊天布局。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Expand thoughts */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"展开思考";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* omp's thoughts stay open in full, in line with the answer, without the "Thought" row that folds them. The one in progress keeps its spinner and timer. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在回复中完整展开 omp 的思考，不显示用于折叠的“思考”行。正在进行的思考仍显示转动图标和计时器。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Context line */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"上下文进度条";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* The line along the top of omp's composer that fills as the conversation uses its context window; a click on it shows what fills it. Off, the composer draws none. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"在 omp 输入框上方显示上下文占用进度条，单击可查看各部分占用。关闭后不显示。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Keep composer open */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"保持输入框展开";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* omp's composer stays open in full when you move to another pane. Off, it folds to one row — the session's name, any unsent draft and the usage — giving its room to the conversation. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"切换到其他区块时，omp 输入框仍保持展开。关闭后收起为一行，显示会话名、未发送草稿和用量，为对话留出更多空间。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Agents tray */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"智能体托盘";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* omp's running subagents and background jobs show as cards over the composer. Off, they show as before the tray: counts of the running agents and jobs over the composer, a click on one opening the agen */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"omp 运行中的子智能体和后台任务以卡片形式显示在输入框上方。关闭后恢复托盘出现前的方式：在输入框上方显示运行中的智能体和任务数量，点击可打开智能体总览。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Composer */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"输入框显示方式";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How omp's composer shows your draft. Markdown styles it as it will read, as Notion does: bold, code, links, headings, lists and quotes, their marks hidden until the caret reaches them. Plain text show */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"输入草稿的显示方式。Markdown 像 Notion 一样显示粗体、代码、链接、标题、列表和引用，光标移入时才显示标记。纯文本始终显示输入的全部字符。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Markdown headings */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"Markdown 标题";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Annotated keeps headings at text size, bold with a dim # marker, as omp's terminal view does. Automatic follows the chat style: Sized in Reader, Annotated in Spine and Console. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"“标注”使用与正文相同的字号、粗体和淡色 # 标记。“自动”随聊天布局变化：阅读布局使用大字号标题，时间线和控制台布局使用标注。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Wrap code */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码自动换行";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Long lines in code blocks and code in replies wrap to the conversation's width. Off, they stay on one line and the block scrolls sideways. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"回复中的代码长行按聊天宽度自动换行。关闭后保持单行，可横向滚动。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Edits */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"代码修改对比";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* How native surfaces show diffs. Split puts old and new side by side when the pane is wide enough. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"原生界面的差异显示方式。选择“分栏”且区块足够宽时，将修改前后的内容并排显示。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Tab width */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1).t::before{content:"制表符宽度";font-size:13px;display:inline-block;line-height:1.45;white-space:normal;}
+/* Columns per tab in code and diffs. */
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h{font-size:0!important;}
+.pf-doc > section:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(2).h::before{content:"代码和差异视图中一个 Tab 占用的列数。";font-size:12px;display:inline-block;line-height:1.45;white-space:normal;}
