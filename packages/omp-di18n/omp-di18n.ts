@@ -766,11 +766,7 @@ async function installPatches(state: Di18nState): Promise<string[]> {
 	try {
 		tui = await import("@oh-my-pi/pi-tui");
 	} catch {
-		try {
-			tui = await import("@earendil-works/pi-tui");
-		} catch {
-			return applied;
-		}
+		return applied;
 	}
 
 	// MenuSelection: covers SelectList + SettingsList + every consumer menu.

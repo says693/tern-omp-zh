@@ -61,7 +61,8 @@ function isEnabled(ctx, name) {
 function assertCompatibleForInstall(ctx, name, force) {
   const result = evaluate(name, ctx.hosts[name], ctx.payloads[name].compat);
   if (result.compatible === false && !force) {
-    throw new Error(`${name} 宿主不兼容：${result.reason}。如确需安装，请加 --force。`);
+    if (ctx.dryRun) ctx.logger.warn(`${name} 宿主不兼容：${result.reason}（dry-run 未安装）`);
+    else throw new Error(`${name} 宿主不兼容：${result.reason}。如确需安装，请加 --force。`);
   }
   if (result.compatible === null) {
     ctx.logger.warn(`${name} 宿主版本未知，无法校验兼容性：${result.reason}`);
