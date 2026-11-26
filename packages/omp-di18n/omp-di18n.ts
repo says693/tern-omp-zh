@@ -993,6 +993,116 @@ async function installPatches(state: Di18nState): Promise<string[]> {
 }
 
 // ---------------------------------------------------------------------------
+// Output-layer fallback: omp 19.2 replaced the component classes with a
+// reactive surface whose module namespace cannot be patched, so translation
+// happens on the rendered terminal stream instead. Replacements never widen a
+// run, keeping the layout columns intact.
+// ---------------------------------------------------------------------------
+
+const ANSI_SEQUENCE = /\x1b\[[0-9;?]*[ -/]*[@-~]|\x1b\][^\x07]*(?:\x07|\x1b\\)|\x1b[@-_]/g;
+
+function displayWidth(text: string): number {
+	let width = 0;
+	for (const ch of text) {
+		const cp = ch.codePointAt(0) ?? 0;
+		const wide =
+			(cp >= 0x1100 && cp <= 0x115f) || cp === 0x2329 || cp === 0x232a ||
+			(cp >= 0x2e80 && cp <= 0xa4cf) || (cp >= 0xac00 && cp <= 0xd7a3) ||
+			(cp >= 0xf900 && cp <= 0xfaff) || (cp >= 0xfe30 && cp <= 0xfe6f) ||
+			(cp >= 0xff00 && cp <= 0xff60) || (cp >= 0xffe0 && cp <= 0xffe6) ||
+			(cp >= 0x1f300 && cp <= 0x1f64f) || (cp >= 0x1f900 && cp <= 0x1f9ff) ||
+			(cp >= 0x20000 && cp <= 0x3fffd);
+		width += wide ? 2 : 1;
+	}
+	return width;
+}
+
+function escapePattern(text: string): string {
+	return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+interface OutputTranslator {
+	count: number;
+	entries: number;
+	replace(text: string): string;
+}
+
+function buildOutputTranslator(dict: Record<string, string>): OutputTranslator | null {
+	const usable: Array<[string, string]> = [];
+	for (const [source, target] of Object.entries(dict)) {
+		if (!source || !target || source.length < 2) continue;
+		if (source.includes("{{") || target.includes("{{")) continue;
+		if (!/^[\x20-\x7e]+$/.test(source)) continue;
+		if (displayWidth(target) > displayWidth(source)) continue;
+		usable.push([source, target]);
+	}
+	if (usable.length === 0) return null;
+	usable.sort((a, b) => b[0].length - a[0].length);
+	const pattern = new RegExp(
+		usable
+			.map(([source]) => {
+				const head = /^[A-Za-z0-9]/.test(source) ? "(?<![A-Za-z0-9])" : "";
+				const tail = /[A-Za-z0-9]$/.test(source) ? "(?![A-Za-z0-9])" : "";
+				return head + escapePattern(source) + tail;
+			})
+			.join("|"),
+		"g",
+	);
+	const padded = new Map(
+		usable.map(([source, target]) => [source, target + " ".repeat(displayWidth(source) - displayWidth(target))]),
+	);
+	const cache = new Map<string, string>();
+	const translator: OutputTranslator = {
+		count: 0,
+		entries: usable.length,
+		replace(text: string): string {
+			const cached = cache.get(text);
+			if (cached !== undefined) return cached;
+			let output = "";
+			let last = 0;
+			ANSI_SEQUENCE.lastIndex = 0;
+			for (let match = ANSI_SEQUENCE.exec(text); match; match = ANSI_SEQUENCE.exec(text)) {
+				output += translateSegment(text.slice(last, match.index)) + match[0];
+				last = match.index + match[0].length;
+			}
+			output += translateSegment(text.slice(last));
+			if (cache.size < 4000) cache.set(text, output);
+			return output;
+		},
+	};
+	function translateSegment(segment: string): string {
+		if (!segment) return segment;
+		return segment.replace(pattern, (match) => {
+			const replacement = padded.get(match);
+			if (replacement === undefined) return match;
+			translator.count += 1;
+			return replacement;
+		});
+	}
+	return translator;
+}
+
+let outputTranslator: OutputTranslator | null = null;
+
+function installOutputTranslator(state: Di18nState): OutputTranslator | null {
+	if (outputTranslator) return outputTranslator;
+	const translator = buildOutputTranslator(state.dict);
+	if (!translator) return null;
+	const out = process.stdout as unknown as { write: (chunk: unknown, ...rest: unknown[]) => boolean };
+	const original = out.write.bind(out);
+	out.write = (chunk: unknown, ...rest: unknown[]): boolean => {
+		if (!state.enabled) return original(chunk, ...rest);
+		let text: string | null = null;
+		if (typeof chunk === "string") text = chunk;
+		else if (chunk instanceof Uint8Array) text = Buffer.from(chunk).toString("utf8");
+		if (text === null) return original(chunk, ...rest);
+		return original(translator.replace(text), ...rest);
+	};
+	outputTranslator = translator;
+	return translator;
+}
+
+// ---------------------------------------------------------------------------
 // Extension entry
 // ---------------------------------------------------------------------------
 
@@ -1035,20 +1145,21 @@ export default function ompDi18n(pi: any): void {
 		if (state.installed) return;
 		try {
 			const applied = await installPatches(state);
-			state.installed = applied.length > 0;
+			const translator = installOutputTranslator(state);
+			state.installed = applied.length > 0 || translator !== null;
+			const mode =
+				applied.length > 0 ? (translator ? "patch+output" : "patch") : translator ? "output" : "none";
 			try {
 				writeFileSync(
 					join(BASE_DIR, "omp-di18n-debug.txt"),
-					`installed=${state.installed}\ndict=${Object.keys(state.dict).length}\npatches:\n${applied.join("\n")}\n`,
+					`installed=${state.installed}\nmode=${mode}\ndict=${Object.keys(state.dict).length}\npatches:\n${applied.join("\n")}\n`,
 				);
 			} catch {}
-			report(
-				ctx,
-				state.installed
-					? `已启用 zh-CN 界面汉化（${dictCount} 条字典，patch: ${applied.join(", ")}）`
-					: "未找到可 patch 的组件（omp 版本可能不兼容）",
-				state.installed ? "info" : "warning",
-			);
+			if (mode === "none") {
+				report(ctx, "未找到可 patch 的组件（omp 版本可能不兼容）", "warning");
+			} else {
+				report(ctx, `已启用 zh-CN 界面汉化（${dictCount} 条字典，${mode} 模式）`);
+			}
 		} catch (e) {
 			report(ctx, `汉化 patch 失败：${String(e)}`, "warning");
 		}

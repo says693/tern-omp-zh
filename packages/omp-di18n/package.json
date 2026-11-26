@@ -1,6 +1,6 @@
 {
   "name": "omp-di18n",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Runtime zh-CN localization payload for the omp TUI (omp 19.x)",
   "type": "module",
   "files": [

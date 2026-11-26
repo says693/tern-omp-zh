@@ -1,16 +1,17 @@
 {
   "schema": 1,
   "package": "omp-di18n",
-  "payloadVersion": "0.1.2",
+  "payloadVersion": "0.2.0",
   "host": {
     "omp": {
-      "range": ">=19.0.0 <19.2.0",
+      "range": ">=19.0.0 <20.0.0",
       "tested": [
         "19.0.0",
         "19.0.1",
-        "19.1.1"
+        "19.1.1",
+        "19.2.1"
       ]
     }
   },
-  "notes": "omp 19.0–19.1 expose the pi-tui component classes this payload patches. omp 19.2 replaced them with the reactive @oh-my-pi/pi-tui surface, whose module namespace cannot be patched; 19.2+ is unsupported until omp offers a localization hook."
+  "notes": "omp 19.0–19.1 patch the pi-tui component classes. omp 19.2 replaced them with the reactive @oh-my-pi/pi-tui surface, whose module namespace cannot be patched, so the payload falls back to translating the rendered terminal stream without changing column widths. 20.x is untested."
 }
